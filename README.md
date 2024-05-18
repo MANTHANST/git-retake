@@ -1,4 +1,4 @@
 # git-retake
 
 
-### THis was a demo git lecture
+# THis was a demo git lecture
