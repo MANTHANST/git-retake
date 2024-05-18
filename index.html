@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>My Drive - Google Drive</title>
+		<link
+			rel="icon"
+			href="https://pngimg.com/uploads/google_drive/google_drive_PNG6.png" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<nav class="nav-bar">
+			<div
+				class="logo-container"
+				title="Drive">
+				<img
+					src="https://pngimg.com/uploads/google_drive/google_drive_PNG6.png"
+					alt=""
+					id="logo" />
+				<p>Drive</p>
+			</div>
+			<div class="search">
+				<i
+					class="fa-solid fa-magnifying-glass"
+					id="search-icon"
+					title="Search"></i>
+				<input
+					type="search"
+					placeholder="Search in Drive"
+					id="search-input" />
+				<img
+					src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAcUlEQVR4nN3VMQrAMAgFUO9/rEon/50sHQolHTR8SWs/OCXxLUpEfhcAflbl2RoAwH5dupVWAmPzxwOQgI7NzWwrAzJBCwCTTZAYDhbwaDhYQKPhoIDpvAKA3PIM4MyWZwBltjwEMukB4NMfzjJAuuUAFDLk6q2IHogAAAAASUVORK5CYII="
+					id="filter-icon"
+					title="Advanced search" />
+			</div>
+			<div class="other-icons">
+				<i
+					class="fa-regular fa-circle-question"
+					title="Support"></i>
+				<i
+					class="fa-solid fa-gear"
+					title="Settings"></i>
+				<img
+					src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1UlEQVR4nO2YsQ3DIBREvUImSZEFXGS0OJU3cpGeOyg8TVw5QhGSi4CLYBPie9KvOD4+/W9ANI0QQgjx7wC4A5hIzp8CQBu0JB8xnR9b5GwT+SYAXU4D0Y/fwgDfOZ/ZDKQW2soAyVkGAqoA1UIHbyFjzDUV4ziegtZae4np/FjQ+TlmJW82A6I0JIdUOOfOC22f0PZB5+dwJW9OA3X/xJQBqgJfoRZi+RYaqt5GRWlM7Zc56iBj8V1o1l2IqsCBWwi1Py0C6PZ+3CV5y2ZACCGEaH6UFyrwiu6UQPEVAAAAAElFTkSuQmCC"
+					title="Google Apps" />
+				<i
+					class="fa-solid fa-circle-user"
+					title="Google Account"></i>
+			</div>
+		</nav>
+
+		<main>
+			<aside class="side-bar">
+				<div class="add-btn">
+					<i class="fa-solid fa-plus"></i>
+					<p>New</p>
+				</div>
+				<div class="options">
+					<div class="options-set">
+						<p><i class="fa-solid fa-house"></i>Home</p>
+						<p><i class="fa-brands fa-google-drive"></i>My Drive</p>
+						<p><i class="fa-solid fa-laptop"></i>Computers</p>
+					</div>
+					<div class="options-set">
+						<p><i class="fa-solid fa-user-group"></i>Shared with me</p>
+						<p><i class="fa-regular fa-clock"></i>Recent</p>
+						<p><i class="fa-regular fa-star"></i>Starred</p>
+					</div>
+					<div class="options-set">
+						<p><i class="fa-solid fa-circle-exclamation"></i>Spam</p>
+						<p><i class="fa-solid fa-trash-can"></i>Bin</p>
+						<p><i class="fa-solid fa-cloud"></i>Storage (84% full)</p>
+					</div>
+					<div class="progress-bar">
+						<p>12.61 GB of 15 GB used</p>
+					</div>
+					<button>Get more storage</button>
+				</div>
+			</aside>
+
+			<section class="main-container">
+				<div class="main-nav">
+					<div class="main-heading">
+						<h1>My Drive<i class="fa-solid fa-caret-down"></i></h1>
+					</div>
+
+					<div class="layout-buttons">
+						<div class="layout">
+							<div class="layout-item">
+								<i class="fa-solid fa-check"></i>
+								<i class="fa-solid fa-bars"></i>
+							</div>
+							<div class="layout-item">
+								<i class="fa-solid fa-border-all"></i>
+							</div>
+						</div>
+						<i class="fa-solid fa-circle-info"></i>
+					</div>
+				</div>
+
+				<div class="filters">
+					<button>Type<i class="fa-solid fa-caret-down"></i></button>
+					<button>People<i class="fa-solid fa-caret-down"></i></button>
+					<button>Modified<i class="fa-solid fa-caret-down"></i></button>
+				</div>
+
+				<div class="folders-details">
+					<table>
+						<tr>
+							<td>Name<i class="fa-solid fa-arrow-down"></i></td>
+							<td>Owner</td>
+							<td>Last mo...<i class="fa-solid fa-caret-down"></i></td>
+							<td>File size</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 1</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>17 May 2023</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 2</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>21 Jun 2020</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 3</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2019</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 4</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>31 Dec 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 5</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>8 Feb 2023</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 6</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>23 Jul 2023</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 7</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>12 Mar 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 8</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>1 Sep 2023</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 9</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>11 Aug 2023</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 10</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>9 Jan 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 11</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>20 Oct 2023</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 12</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 13</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 14</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 15</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 16</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+						<tr>
+							<td><i class="fa-solid fa-folder"></i>Folder 17</td>
+							<td>
+								<i class="fa-solid fa-circle-user"></i>
+								<span>me</span>
+							</td>
+							<td>30 Apr 2024</td>
+							<td>----</td>
+							<td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+						</tr>
+					</table>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
